@@ -1,0 +1,42 @@
+.card {
+    transition: 0.3s;
+    width: 284px;
+    border-radius: 7px;
+    border: 2px solid #6ac4e2;
+    float: left;
+    margin: 20px 40px;
+    height: 360px;
+}
+
+
+.card img {
+    border-radius: 5px 5px 0 0;
+    height: 190px;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+h2 {
+    margin: -3px auto;
+}
+
+button {
+    background-color: #6ac4e2;
+    color: white;
+    display: inline-block;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #6ac4e2;
+    border-radius: 5px;
+    padding: 6px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+    background-color: #379fc2;
+}
