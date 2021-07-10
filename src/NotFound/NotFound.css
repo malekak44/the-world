@@ -1,0 +1,15 @@
+.not-found h1 {
+    background-image: linear-gradient(to right, #23966c, #faaa54, #e23b4a, #db0768, #360670);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    margin-bottom: -40px;
+}
+
+.not-found img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}

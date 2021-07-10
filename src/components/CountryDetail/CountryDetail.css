@@ -1,0 +1,25 @@
+.single {
+    background-image: linear-gradient(to right, #23966c, #faaa54, #e23b4a, #db0768, #360670);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.single h1 {
+    text-align: center;
+}
+
+.single img {
+    display: block;
+    width: 30%;
+    margin: auto;
+    border: 2px solid #e23b4a;
+}
+
+.single ul {
+    width: 33%;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 15px;
+}

@@ -1,13 +1,18 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Country.css';
 
 const Country = (props) => {
     const { name, capital, population, flag } = props.country;
     return (
         <div className="card">
-            <img src={flag} alt={name} style={{ width: "100%" }} />
+            <Link to={"country/" + name}>
+                <img src={flag} alt={name} style={{ width: "100%" }} />
+            </Link>
             <div className="container">
-                <h2>{name.substring(0, 18)}</h2>
+                <Link to={"country/" + name} style={{ textDecoration: 'none' }}>
+                    <h2 className="name">{name.substring(0, 18)}</h2>
+                </Link>
                 <p>Capital: {capital}</p>
                 <p>Population: {population}</p>
                 <button onClick={() => props.handleAddClick(props.country)}>Add</button>
