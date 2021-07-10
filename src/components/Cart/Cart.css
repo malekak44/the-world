@@ -8,3 +8,10 @@
     border-radius: 7px;
     padding: 15px;
 }
+
+@media only screen and (max-width: 768px) {
+    .cart {
+        margin: 20px auto;
+        width: 69%;
+    }
+}

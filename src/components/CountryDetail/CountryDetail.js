@@ -23,6 +23,7 @@ const CountryDetail = () => {
                 <li>Timezone: {timezones}</li>
                 <li>Population: {population}</li>
             </ul>
+            <button className="backBtn" onClick={() => window.history.go(-1)}>Back</button>
         </div>
     );
 };

@@ -24,13 +24,11 @@ h2 {
 }
 
 button {
-    background-color: #6ac4e2;
     color: white;
     display: inline-block;
     line-height: 1.5;
     text-align: center;
     vertical-align: middle;
-    border: 1px solid #6ac4e2;
     border-radius: 5px;
     padding: 6px 15px;
     font-size: 16px;
@@ -39,5 +37,21 @@ button {
 
 button:focus {
     outline: none;
+}
+
+.addBtn {
+    background-color: #6ac4e2;
+    border: 1px solid #6ac4e2;
+}
+
+.addBtn:focus {
     background-color: #379fc2;
+}
+
+@media only screen and (max-width: 768px) {
+    .card {
+        float: none;
+        margin: 20px auto;
+        width: 315px;
+    }
 }

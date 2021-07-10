@@ -23,3 +23,25 @@
     font-size: 20px;
     margin-top: 15px;
 }
+
+.backBtn {
+    background-color: #e23b4a;
+    border: 1px solid #e23b4a;
+    margin: 1% 35%;
+    display: block;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .single img {
+        width: 50%;
+    }
+
+    .single ul {
+        width: 60%;
+    }
+
+    .backBtn {
+        margin: 2% 25%;
+    }
+}
