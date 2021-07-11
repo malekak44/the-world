@@ -52,6 +52,6 @@ button:focus {
     .card {
         float: none;
         margin: 20px auto;
-        width: 315px;
+        width: 100%;
     }
 }

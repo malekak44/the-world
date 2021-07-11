@@ -34,14 +34,15 @@
 @media only screen and (max-width: 768px) {
 
     .single img {
-        width: 50%;
+        width: 85%;
     }
 
     .single ul {
-        width: 60%;
+        width: 90%;
+        font-size: 26px;
     }
 
     .backBtn {
-        margin: 2% 25%;
+        margin: 3% 10%;
     }
 }
