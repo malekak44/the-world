@@ -15,7 +15,10 @@ const Country = (props) => {
                 </Link>
                 <p>Capital: {capital}</p>
                 <p>Population: {population}</p>
-                <button className="addBtn" onClick={() => props.handleAddClick(props.country)}>Add</button>
+                <button className="addBtn" onClick={(e) => {
+                    e.target.innerHTML = 'Added✔';
+                    props.handleAddClick(props.country)
+                }}>Add</button>
             </div>
         </div>
     );

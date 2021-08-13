@@ -13,5 +13,6 @@
     .cart {
         margin: 20px auto;
         width: 69%;
+        height: auto;
     }
 }

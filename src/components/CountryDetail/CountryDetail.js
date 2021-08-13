@@ -10,7 +10,7 @@ const CountryDetail = () => {
         fetch(url)
             .then(res => res.json())
             .then(data => setCountry(data[0]))
-    }, [])
+    }, [name]);
     const { flag, capital, region, area, timezones, population } = country;
     return (
         <div className="single">
